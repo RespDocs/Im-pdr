@@ -1,0 +1,134 @@
+[
+  {
+    "nombre": "VersaLink B405",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719067157",
+    "ip": "172.16.1.207"
+  },
+  {
+    "nombre": "PAV2-BODEGA",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719048748",
+    "ip": "172.16.1.217"
+  },
+  {
+    "nombre": "PAV2-ADM-PAISAJ",
+    "modelo": "Xerox VersaLink B400",
+    "serial": "3351397283",
+    "ip": "172.16.1.219"
+  },
+  {
+    "nombre": "STC-COBRANZAS2",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719066118",
+    "ip": "172.16.1.220"
+  },
+  {
+    "nombre": "STC-OPERACIONES",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719442977",
+    "ip": "172.16.1.240"
+  },
+  {
+    "nombre": "STC-GV-ESCALERA",
+    "modelo": "Xerox VersaLink B7025",
+    "serial": "3390579747",
+    "ip": "172.16.1.242"
+  },
+  {
+    "nombre": "STC-CTRL-OPERACIONES",
+    "modelo": "Xerox VersaLink C405",
+    "serial": "3356636529",
+    "ip": "172.16.1.246"
+  },
+  {
+    "nombre": "LTO-Personal_color",
+    "modelo": "Xerox VersaLink C405",
+    "serial": "3356024604",
+    "ip": "172.16.2.216"
+  },
+  {
+    "nombre": "LTO-GG",
+    "modelo": "Xerox VersaLink C405",
+    "serial": "3356024850",
+    "ip": "172.16.2.220"
+  },
+  {
+    "nombre": "Cobranza",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719433471",
+    "ip": "172.16.2.236"
+  },
+  {
+    "nombre": "PAV-REC-ATC",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3714685111",
+    "ip": "172.16.3.102"
+  },
+  {
+    "nombre": "PAV-P1-Velatorios",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719067084",
+    "ip": "172.16.3.110"
+  },
+  {
+    "nombre": "PAV-REC-Asesores",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719067017",
+    "ip": "172.16.3.145"
+  },
+  {
+    "nombre": "PAV-BOD-Capataz",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719411303",
+    "ip": "172.16.3.183"
+  },
+  {
+    "nombre": "PAV-Bod-RRHH",
+    "modelo": "Xerox VersaLink C405",
+    "serial": "3356024680",
+    "ip": "172.16.3.185"
+  },
+  {
+    "nombre": "PAV-BOD-Jbod",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719931498",
+    "ip": "172.16.3.203"
+  },
+  {
+    "nombre": "PAV-P1-SupMantencion",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719928560",
+    "ip": "172.16.3.223"
+  },
+  {
+    "nombre": "PAV-REC-Abastecimiento",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3714682511",
+    "ip": "172.16.3.227"
+  },
+  {
+    "nombre": "PAV-REC-Sepultaciones ",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719442969",
+    "ip": "172.16.3.228"
+  },
+  {
+    "nombre": "PAV-REC-GerCinerario",
+    "modelo": "Xerox VersaLink C405",
+    "serial": "3997881183",
+    "ip": "172.16.3.236"
+  },
+  {
+    "nombre": "PAV-CIN-ATC",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719066878",
+    "ip": "172.16.3.242"
+  },
+  {
+    "nombre": "PAV-V555-ATC",
+    "modelo": "Xerox VersaLink B405",
+    "serial": "3719047679",
+    "ip": "172.16.3.249"
+  }
+]

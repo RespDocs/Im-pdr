@@ -1,0 +1,156 @@
+[
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719067157",
+    "nombre": "VersaLink B405",
+    "ip": "172.16.1.207"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719048748",
+    "nombre": "PAV2-BODEGA",
+    "ip": "172.16.1.217"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3351397283",
+    "nombre": "PAV2-ADM-PAISAJ",
+    "ip": "172.16.1.219"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719066118",
+    "nombre": "STC-COBRANZAS2",
+    "ip": "172.16.1.220"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719442977",
+    "nombre": "STC-OPERACIONES",
+    "ip": "172.16.1.240"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3390579747",
+    "nombre": "STC-GV-ESCALERA",
+    "ip": "172.16.1.242"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3356636529",
+    "nombre": "STC-CTRL-OPERACIONES",
+    "ip": "172.16.1.246"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3356024604",
+    "nombre": "LTO-Personal_color",
+    "ip": "172.16.2.216"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3356024850",
+    "nombre": "LTO-GG",
+    "ip": "172.16.2.220"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719433471",
+    "nombre": "Cobranza",
+    "ip": "172.16.2.236"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3714685111",
+    "nombre": "PAV-REC-ATC",
+    "ip": "172.16.3.102"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719067084",
+    "nombre": "PAV-P1-Velatorios",
+    "ip": "172.16.3.110"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719067017",
+    "nombre": "PAV-REC-Asesores",
+    "ip": "172.16.3.145"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719411303",
+    "nombre": "PAV-BOD-Capataz",
+    "ip": "172.16.3.183"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3356024680",
+    "nombre": "PAV-Bod-RRHH",
+    "ip": "172.16.3.185"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719931498",
+    "nombre": "PAV-BOD-Jbod",
+    "ip": "172.16.3.203"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719928560",
+    "nombre": "PAV-P1-SupMantencion",
+    "ip": "172.16.3.223"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3714682511",
+    "nombre": "PAV-REC-Abastecimiento",
+    "ip": "172.16.3.227"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719442969",
+    "nombre": "PAV-REC-Sepultaciones ",
+    "ip": "172.16.3.228"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3997881183",
+    "nombre": "PAV-REC-GerCinerario",
+    "ip": "172.16.3.236"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719066878",
+    "nombre": "PAV-CIN-ATC",
+    "ip": "172.16.3.242"
+  },
+  {
+    "fecha": "2026-09-18T11:36:46.643150",
+    "tipo": "NUEVA_IMPRESORA",
+    "serial": "3719047679",
+    "nombre": "PAV-V555-ATC",
+    "ip": "172.16.3.249"
+  }
+]
