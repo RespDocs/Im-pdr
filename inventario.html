@@ -6,14 +6,14 @@
 
 <meta charset="utf-8">
 
-<title>Alertas y Eventos - PDR</title>
+<title>Inventario IM-V2 Parque del recuerdo</title>
 
 <style>
 
 body {
     font-family: Arial, sans-serif;
-    background:#f5f7fa;
-    margin:0;
+    background: #f5f7fa;
+    margin: 0;
 }
 
 header {
@@ -28,39 +28,71 @@ header {
 }
 
 .container {
-    max-width:1400px;
-    margin:auto;
-    padding:20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resumen{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.card-resumen{
+    background:white;
+    padding:15px 20px;
+    border-radius:8px;
+    box-shadow:0 2px 4px rgba(0,0,0,.08);
+    min-width:150px;
+    text-align: center;
+}
+
+.card-resumen span{
+    display:block;
+    color:#666;
+    font-size:13px;
+}
+
+.card-resumen strong{
+    font-size:28px;
+    color:#38bdf8;
+}
+
+#buscar{
+    width:100%;
+    max-width:400px;
+    padding:10px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+th{
+    cursor:pointer;
+    position:sticky;
+    top:0;
+    z-index:5;
 }
 
 table {
-    width:100%;
-    border-collapse:collapse;
-    background:white;
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
 }
 
 th,
 td {
-    border:1px solid #ddd;
-    padding:8px;
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
 th {
-    background:#f3f4f6;
-    cursor:pointer;
+    background: #f3f4f6;
 }
 
 tr:hover {
-    background:#f9fafb;
-}
-
-.buscar {
-    width:100%;
-    max-width:400px;
-    margin-bottom:20px;
-    padding:10px;
-    border:1px solid #ccc;
-    border-radius:6px;
+    background: #f9fafb;
 }
 
 .navegacion {
@@ -117,13 +149,13 @@ tr:hover {
 
 <header>
 
-<h1>Alertas y Eventos</h1>
+<h1>Inventario de Impresoras</h1>
 
 <div class="nav-header">
 
 <a href="index.html">🏠 Inicio</a>
 
-<a href="inventario.html">🖨️ Inventario</a>
+<a href="alertas.html">⚠️ Alertas</a>
 
 <a href="instalaciones.html">🔧 Instalaciones</a>
 
@@ -134,10 +166,9 @@ tr:hover {
 <div class="container">
 
 <input
-class="buscar"
-type="text"
-id="buscar"
-placeholder="🔍 Buscar..."
+    type="text"
+    id="buscar"
+    placeholder="🔍 Buscar equipo, serie, modelo o IP..."
 >
 
 <table id="tabla">
@@ -145,23 +176,38 @@ placeholder="🔍 Buscar..."
 <thead>
 
 <tr>
-<th onclick="ordenarTabla(0)">ID ↕</th>
-<th onclick="ordenarTabla(1)">Estado ↕</th>
-<th onclick="ordenarTabla(2)">Equipo ↕</th>
-<th onclick="ordenarTabla(3)">Serie ↕</th>
-<th onclick="ordenarTabla(4)">Modelo ↕</th>
-<th onclick="ordenarTabla(5)">Consumible ↕</th>
-<th onclick="ordenarTabla(6)">PN ↕</th>
-<th onclick="ordenarTabla(7)">Valor ↕</th>
-<th onclick="ordenarTabla(8)">Fecha Creación ↕</th>
-<th onclick="ordenarTabla(9)">Fecha Resolución ↕</th>
+<th onclick="ordenarTabla(0)">#</th>
+<th onclick="ordenarTabla(1)">Nombre ↕</th>
+<th onclick="ordenarTabla(2)">Serie ↕</th>
+<th onclick="ordenarTabla(3)">Modelo ↕</th>
+<th onclick="ordenarTabla(4)">IP ↕</th>
+<th onclick="ordenarTabla(5)">Negro ↕</th>
+<th onclick="ordenarTabla(6)">Color ↕</th>
+<th onclick="ordenarTabla(7)">Total ↕</th>
+<th onclick="ordenarTabla(8)">Estado ↕</th>
+<th onclick="ordenarTabla(9)">Última lectura</th>
 </tr>
 
 </thead>
 
+
+
 <tbody>
 
 
+            <tr>
+            <td>1</td>
+            <td>STC-CTRL-OPERACIONES</td>
+            <td><a href="3356636529.html">3356636529</a></td>
+            <td>Xerox VersaLink C405</td>
+            <td>172.16.1.246</td>
+            <td>127.193</td>
+            <td>107.302</td>
+            <td>234.495</td>
+            <td>🟢</td>
+            <td>18-09-2026 23:30:52</td>
+            </tr>
+            
 
 </tbody>
 
@@ -238,12 +284,12 @@ function ordenarTabla(columna)
 
         const aNum =
             parseFloat(
-                aVal.replace("%", "")
+                aVal.replace(/\./g, "")
             );
 
         const bNum =
             parseFloat(
-                bVal.replace("%", "")
+                bVal.replace(/\./g, "")
             );
 
         if (
@@ -277,6 +323,20 @@ function ordenarTabla(columna)
         fila =>
         tbody.appendChild(fila)
     );
+
+    actualizarNumeracion();
+}
+
+function actualizarNumeracion()
+{
+    document
+        .querySelectorAll("#tabla tbody tr")
+        .forEach((fila, indice) => {
+
+            fila.cells[0].innerText =
+                indice + 1;
+
+        });
 }
 
 </script>
